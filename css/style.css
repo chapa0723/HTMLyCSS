@@ -25,3 +25,6 @@ h4{
     font-style: italic;
     font-weight: bolder;
 }
+.bordesolido {
+    border: 1px solid black;
+}
