@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <title>Calse 7</title>
+</head>
+<body>
+
+    <!--- crear un formulario de login con dos inputs: usuario y contraseña, con un boton de submit
+        y un checkbox de he leido y acepto los términos y condiciones.
+    ---->
+    <div class="contenedor">
+        <div class="login-form">
+            <h1>Inicio de sesion</h1>
+            <form action="">
+                <div class="form-group">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" name="contraseña" id="contraseña" class="form-control" placeholder="Contraseña" required>
+                </div>
+                <div class="form-group">
+                    <label for="terminos">Acepto los términos y condiciones</label>
+                    <input type="checkbox" name="terminos" id="terminos" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Enviar" class="btn btn-primary">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
