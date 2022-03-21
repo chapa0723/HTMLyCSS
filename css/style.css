@@ -3,7 +3,7 @@ html body {
 }
 
 body{
-    background-image: url(../img/red-matrix.jpg);
+    /*background-image: url(../img/red-matrix.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,7 +54,7 @@ input#check {
 }
 
 h1{
-    color: white;
+    color: black;
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
 }
